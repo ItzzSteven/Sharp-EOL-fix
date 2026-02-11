@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharp - Scratch Mod</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #111827, #1f2937);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .container {
+        max-width: 600px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        background: linear-gradient(90deg, #00d4ff, #5865f2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p {
+        color: #cbd5e1;
+        margin-bottom: 40px;
+        font-size: 1.1rem;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .btn {
+        padding: 14px 28px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+
+    .download {
+        background-color: #00d4ff;
+        color: #111827;
+    }
+
+    .download:hover {
+        background-color: #00a8cc;
+        transform: translateY(-3px);
+    }
+
+    .run {
+        background-color: #5865f2;
+        color: white;
+    }
+
+    .run:hover {
+        background-color: #4752c4;
+        transform: translateY(-3px);
+    }
+
+    footer {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #94a3b8;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Sharp</h1>
+    <p>scratch mod...</p>
+
+    <div class="buttons">
+        <a href="Sharp-HTML" class="btn download">Run</a>
+        <a href="https://sharpscratchmod.github.io/" class="btn run">Download</a>
+    </div>
+</div>
+
+<footer>
+    sharp is not made by me see 
+    <a href="dl.html" class="btn run">official scratch mod</a>
+</footer>
+
+</body>
+</html>
