@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruffle Flash Player Example</title>
+    <title>Sharp</title>
 
-    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script src="ruffle.js"></script>
     <style>
 
         html, body {
@@ -25,7 +25,7 @@
     <div id="container"></div>
 
     <script>
-        // Set up Ruffle configuration (optional)
+
         window.RufflePlayer = window.RufflePlayer || {};
         window.RufflePlayer.config = {
             "autoplay": "on",
@@ -34,7 +34,7 @@
             "quality": "high"
         };
 
-        // Wait for the window to load, then initialize Ruffle
+
         window.addEventListener("load", (event) => {
             const ruffle = window.RufflePlayer.newest();
             const player = ruffle.createPlayer();
@@ -46,3 +46,4 @@
     </script>
 </body>
 </html>
+
